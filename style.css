@@ -1,0 +1,66 @@
+    * {
+        box-sizing: border-box;
+    }
+    
+    .container {
+        height: 100px;
+        width: 500px;
+        background-color: rgb(37, 36, 36);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 5px solid violet;
+        border-color: violet;
+        box-shadow: 0 0 35px rgb(87, 40, 218);
+    }
+    
+    .social {
+        color: white;
+        list-style: none;
+        padding: 0px;
+        display: flex;
+        justify-content: space-between;
+        width: 450px;
+    }
+    
+    .social_item {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        border: 5px solid white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        transition: all 0. 8s;
+    }
+    
+    .facebook:hover {
+        border-color: blue;
+        box-shadow: 0 0 35px blue;
+        color: blue;
+    }
+    
+    .instagramm:hover {
+        border-color: orangered;
+        box-shadow: 0 0 35px orangered;
+        color: orangered;
+    }
+    
+    .twitter:hover {
+        border-color: rgb(47, 189, 236);
+        box-shadow: 0 0 35px rgb(47, 189, 236);
+        color: rgb(47, 189, 236);
+    }
+    
+    .watsapp:hover {
+        border-color: rgb(27, 236, 27);
+        box-shadow: 0 0 35px rgb(27, 236, 27);
+        color: rgb(27, 236, 27)
+    }
+    
+    .telegramm:hover {
+        border-color: rgb(57, 157, 250);
+        box-shadow: 0 0 35px rgb(57, 157, 250);
+        color: rgb(57, 157, 250);
+    }
